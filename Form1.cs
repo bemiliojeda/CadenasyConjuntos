@@ -251,5 +251,13 @@ namespace WindowsFormsApp1
             Menu menu = new Menu();
             menu.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Menu menu = new Menu();
+            menu.Show();
+
+        }
     }
 }
